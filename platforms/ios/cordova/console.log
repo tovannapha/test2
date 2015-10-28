@@ -210,3 +210,23 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-10-29 03:28:51.135 HelloCordova[644:8177] Resetting plugins due to page load.
 2015-10-29 03:28:51.135 HelloCordova[644:8177] iosrtcPlugin#onReset() | doing nothing
 2015-10-29 03:28:51.901 HelloCordova[644:8177] Finished load of: file:///Users/toootooo/Library/Developer/CoreSimulator/Devices/2F528C17-34C1-4699-AFF9-1026AECE25B3/data/Containers/Bundle/Application/C8C8BD70-E94E-4413-B4A5-34B4FBCC3237/HelloCordova.app/www/index.html
+2015-10-29 05:46:27.876 HelloCordova[909:20538] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/toootooo/Library/Developer/CoreSimulator/Devices/2F528C17-34C1-4699-AFF9-1026AECE25B3/data/Containers/Data/Application/116D1E61-910B-4C89-ACD0-7EB94C5E38E0/Library/Cookies/Cookies.binarycookies
+2015-10-29 05:46:27.991 HelloCordova[909:20538] Apache Cordova native platform version 3.9.1 is starting.
+2015-10-29 05:46:27.991 HelloCordova[909:20538] Multi-tasking -> Device: YES, App: YES
+2015-10-29 05:46:28.009 HelloCordova[909:20538] Unlimited access to network resources
+2015-10-29 05:46:28.012 HelloCordova[909:20538] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-10-29 05:46:28.089 HelloCordova[909:20538] iosrtcPlugin#init()
+2015-10-29 05:46:28.124 HelloCordova[909:20538] PluginGetUserMedia#init()
+2015-10-29 05:46:28.124 HelloCordova[909:20538] [CDVTimer][iosrtcplugin] 49.086034ms
+2015-10-29 05:46:28.125 HelloCordova[909:20538] [CDVTimer][TotalPluginStartup] 49.241006ms
+2015-10-29 05:46:28.199 HelloCordova[909:20538] Resetting plugins due to page load.
+2015-10-29 05:46:28.199 HelloCordova[909:20538] iosrtcPlugin#onReset() | doing nothing
+2015-10-29 05:46:29.355 HelloCordova[909:20538] Finished load of: file:///Users/toootooo/Library/Developer/CoreSimulator/Devices/2F528C17-34C1-4699-AFF9-1026AECE25B3/data/Containers/Bundle/Application/F19667F4-BA8A-4F90-8018-6CC450E86985/HelloCordova.app/www/index.html
+2015-10-29 05:46:29.413 HelloCordova[909:20547] Camera.getPicture: source type 1 not available.

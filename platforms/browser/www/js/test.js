@@ -1,14 +1,20 @@
- navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || window.navigator.mozGetUserMedia;
-                window.URL = window.URL || window.webkitURL;
-             
-                var video = document.getElementById('myVideo');
-                var localStream = null;
-                navigator.getUserMedia({video: true, audio: false}, 
-                 function(stream) { // for success case
-                  console.log(stream);
-                  video.src = window.URL.createObjectURL(stream);
-                 },
-                 function(err) { // for error case
-                  console.log(err);
-                 }
-                );
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    console.log('if work say hi');
+    console.log(navigator.camera);
+
+    navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
+    destinationType: Camera.DestinationType.DATA_URL
+});
+
+function onSuccess(imageData) {
+    var image = document.getElementById('myImage');
+    image.src = "data:image/jpeg;base64," + imageData;
+}
+
+function onFail(message) {
+    alert('Failed because: ' + message);
+}
+
+
+}

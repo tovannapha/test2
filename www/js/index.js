@@ -36,9 +36,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         console.log('ready!');
-        app.receivedEvent('deviceready');
-   
-               
+        app.receivedEvent('deviceready');              
               
      
     },
